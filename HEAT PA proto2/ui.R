@@ -11,8 +11,8 @@ mortality_rate_a <- list("average population (about 20-64 years old)" = 2,
                          "older average population (about 45-64 years old)" = 5)
 
 # Mortality and VSL data need to be visible to server.R
-mortality_data <<- read.csv("./input/mortality rates 10June2015.csv")
-vsl_data <<- read.csv("./input/selectedVSL_2014.csv")
+mortality_data <<- read.csv("./input data/mortality rates 10June2015.csv")
+vsl_data <<- read.csv("./input data/selectedVSL_2014.csv")
 
 ui<-shinyUI(fluidPage(
   navbarPage("HEAT Cycling",

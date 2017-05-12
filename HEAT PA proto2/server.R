@@ -1,8 +1,8 @@
 
 library(shiny)
 
-source("./input/constants cycling.R")
-source("./input/user defined functions.R")
+source("./code/constants cycling.R")
+source("./code/user defined functions.R")
 
 
 
